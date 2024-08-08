@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-facebook {
+      @apply border-gray-300 rounded-sm border w-full h-12 md:h-14 mb-2 pl-2;
+  }
+}
